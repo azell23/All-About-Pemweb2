@@ -1,11 +1,11 @@
 <?php
 
 session_start();
-$host = "host = 127.0.0.1";
+$host = "host = john.db.elephantsql.com";
 $port = "port = 5432";
-$dbname = "dbname = db_kampus";
-$username = "user = postgres";
-$password = "password = 12345";
+$dbname = "dbname = faqoanct";
+$username = "user = faqoanct";
+$password = "password = g3TAi9XQDpgYe74NXMuhoZUsFkZfA0L1";
 
 $connection = pg_connect("$host $port $dbname $username $password");
 if ($connection) {
